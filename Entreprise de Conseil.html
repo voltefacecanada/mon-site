@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entreprise de Conseil</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #0d47a1;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #1565c0;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .service {
+      background: #f4f4f4;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #0d47a1;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #1565c0;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nom de votre entreprise</h1>
+    <p>Votre partenaire stratégique pour transformer vos idées en résultats</p>
+  </header>
+
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Nous sommes une entreprise de conseil dédiée à accompagner les organisations dans leur développement stratégique et opérationnel. Notre mission est de transformer vos défis en opportunités durables grâce à une approche personnalisée et humaine.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nos services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Conseil stratégique</h3>
+        <p>Accompagnement dans la définition et la mise en œuvre de votre vision à long terme.</p>
+      </div>
+      <div class="service">
+        <h3>Optimisation des processus</h3>
+        <p>Amélioration de l’efficacité opérationnelle et réduction des coûts.</p>
+      </div>
+      <div class="service">
+        <h3>Formation et coaching</h3>
+        <p>Développement des compétences et soutien personnalisé pour vos équipes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nom de votre entreprise - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
